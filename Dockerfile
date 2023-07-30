@@ -1,4 +1,4 @@
 FROM openjdk:17
 WORKDIR /app
-COPY target/spring-docker.jar .
-CMD ["java", "-jar", "spring-docker.jar"]
+COPY target/spring-boot-kafka-docker.jar .
+CMD ["java", "-jar", "spring-boot-kafka-docker.jar"]
