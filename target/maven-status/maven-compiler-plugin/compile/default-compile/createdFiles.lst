@@ -1,0 +1,4 @@
+com\spring\kafka\KafkaApplication.class
+com\spring\kafka\producer\KafkaProducer.class
+com\spring\kafka\controller\KafkaController.class
+com\spring\kafka\consumer\KafkaConsumer.class

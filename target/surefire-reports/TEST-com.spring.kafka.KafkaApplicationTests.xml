@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.spring.kafka.KafkaApplicationTests" time="7.881" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\Bhupesh ( Don&apos;t Delete)\Kafka\kafka\target\test-classes;E:\Bhupesh ( Don&apos;t Delete)\Kafka\kafka\target\classes;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter\3.1.2\spring-boot-starter-3.1.2.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot\3.1.2\spring-boot-3.1.2.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.1.2\spring-boot-autoconfigure-3.1.2.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.1.2\spring-boot-starter-logging-3.1.2.jar;C:\Users\DELL\.m2\repository\ch\qos\logback\logback-classic\1.4.8\logback-classic-1.4.8.jar;C:\Users\DELL\.m2\repository\ch\qos\logback\logback-core\1.4.8\logback-core-1.4.8.jar;C:\Users\DELL\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.20.0\log4j-to-slf4j-2.20.0.jar;C:\Users\DELL\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\DELL\.m2\repository\org\slf4j\jul-to-slf4j\2.0.7\jul-to-slf4j-2.0.7.jar;C:\Users\DELL\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-core\6.0.11\spring-core-6.0.11.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-jcl\6.0.11\spring-jcl-6.0.11.jar;C:\Users\DELL\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar;C:\Users\DELL\.m2\repository\org\springframework\kafka\spring-kafka\3.0.9\spring-kafka-3.0.9.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-context\6.0.11\spring-context-6.0.11.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-aop\6.0.11\spring-aop-6.0.11.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-beans\6.0.11\spring-beans-6.0.11.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-expression\6.0.11\spring-expression-6.0.11.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-messaging\6.0.11\spring-messaging-6.0.11.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-tx\6.0.11\spring-tx-6.0.11.jar;C:\Users\DELL\.m2\repository\org\springframework\retry\spring-retry\2.0.2\spring-retry-2.0.2.jar;C:\Users\DELL\.m2\repository\org\apache\kafka\kafka-clients\3.4.1\kafka-clients-3.4.1.jar;C:\Users\DELL\.m2\repository\com\github\luben\zstd-jni\1.5.2-1\zstd-jni-1.5.2-1.jar;C:\Users\DELL\.m2\repository\org\lz4\lz4-java\1.8.0\lz4-java-1.8.0.jar;C:\Users\DELL\.m2\repository\org\xerial\snappy\snappy-java\1.1.8.4\snappy-java-1.1.8.4.jar;C:\Users\DELL\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\DELL\.m2\repository\io\micrometer\micrometer-observation\1.11.2\micrometer-observation-1.11.2.jar;C:\Users\DELL\.m2\repository\io\micrometer\micrometer-commons\1.11.2\micrometer-commons-1.11.2.jar;C:\Users\DELL\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\DELL\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.1.2\spring-boot-starter-test-3.1.2.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-test\3.1.2\spring-boot-test-3.1.2.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.1.2\spring-boot-test-autoconfigure-3.1.2.jar;C:\Users\DELL\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\DELL\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\DELL\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.2\jakarta.activation-api-2.1.2.jar;C:\Users\DELL\.m2\repository\net\minidev\json-smart\2.4.11\json-smart-2.4.11.jar;C:\Users\DELL\.m2\repository\net\minidev\accessors-smart\2.4.11\accessors-smart-2.4.11.jar;C:\Users\DELL\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\DELL\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\DELL\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\DELL\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\DELL\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\DELL\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\DELL\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\DELL\.m2\repository\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;C:\Users\DELL\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.5\byte-buddy-agent-1.14.5.jar;C:\Users\DELL\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\DELL\.m2\repository\org\mockito\mockito-junit-jupiter\5.3.1\mockito-junit-jupiter-5.3.1.jar;C:\Users\DELL\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\DELL\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-test\6.0.11\spring-test-6.0.11.jar;C:\Users\DELL\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\DELL\.m2\repository\org\springframework\kafka\spring-kafka-test\3.0.9\spring-kafka-test-3.0.9.jar;C:\Users\DELL\.m2\repository\org\apache\zookeeper\zookeeper\3.6.3\zookeeper-3.6.3.jar;C:\Users\DELL\.m2\repository\org\apache\zookeeper\zookeeper-jute\3.6.3\zookeeper-jute-3.6.3.jar;C:\Users\DELL\.m2\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;C:\Users\DELL\.m2\repository\io\netty\netty-handler\4.1.94.Final\netty-handler-4.1.94.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-common\4.1.94.Final\netty-common-4.1.94.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-resolver\4.1.94.Final\netty-resolver-4.1.94.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-buffer\4.1.94.Final\netty-buffer-4.1.94.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport\4.1.94.Final\netty-transport-4.1.94.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.94.Final\netty-transport-native-unix-common-4.1.94.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-codec\4.1.94.Final\netty-codec-4.1.94.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-epoll\4.1.94.Final\netty-transport-native-epoll-4.1.94.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.94.Final\netty-transport-classes-epoll-4.1.94.Final.jar;C:\Users\DELL\.m2\repository\org\apache\kafka\kafka-clients\3.4.1\kafka-clients-3.4.1-test.jar;C:\Users\DELL\.m2\repository\org\apache\kafka\kafka-metadata\3.4.1\kafka-metadata-3.4.1.jar;C:\Users\DELL\.m2\repository\org\apache\kafka\kafka-server-common\3.4.1\kafka-server-common-3.4.1.jar;C:\Users\DELL\.m2\repository\org\apache\kafka\kafka-raft\3.4.1\kafka-raft-3.4.1.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.2\jackson-datatype-jdk8-2.15.2.jar;C:\Users\DELL\.m2\repository\com\yammer\metrics\metrics-core\2.2.0\metrics-core-2.2.0.jar;C:\Users\DELL\.m2\repository\org\apache\kafka\kafka-streams-test-utils\3.4.1\kafka-streams-test-utils-3.4.1.jar;C:\Users\DELL\.m2\repository\org\apache\kafka\kafka-streams\3.4.1\kafka-streams-3.4.1.jar;C:\Users\DELL\.m2\repository\org\rocksdb\rocksdbjni\7.1.2\rocksdbjni-7.1.2.jar;C:\Users\DELL\.m2\repository\org\apache\kafka\kafka_2.13\3.4.1\kafka_2.13-3.4.1.jar;C:\Users\DELL\.m2\repository\org\scala-lang\scala-library\2.13.10\scala-library-2.13.10.jar;C:\Users\DELL\.m2\repository\org\apache\kafka\kafka-group-coordinator\3.4.1\kafka-group-coordinator-3.4.1.jar;C:\Users\DELL\.m2\repository\org\apache\kafka\kafka-storage\3.4.1\kafka-storage-3.4.1.jar;C:\Users\DELL\.m2\repository\org\apache\kafka\kafka-storage-api\3.4.1\kafka-storage-api-3.4.1.jar;C:\Users\DELL\.m2\repository\net\sourceforge\argparse4j\argparse4j\0.7.0\argparse4j-0.7.0.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\module\jackson-module-scala_2.13\2.15.2\jackson-module-scala_2.13-2.15.2.jar;C:\Users\DELL\.m2\repository\com\thoughtworks\paranamer\paranamer\2.8\paranamer-2.8.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-csv\2.15.2\jackson-dataformat-csv-2.15.2.jar;C:\Users\DELL\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\DELL\.m2\repository\org\bitbucket\b_c\jose4j\0.9.3\jose4j-0.9.3.jar;C:\Users\DELL\.m2\repository\org\scala-lang\modules\scala-collection-compat_2.13\2.10.0\scala-collection-compat_2.13-2.10.0.jar;C:\Users\DELL\.m2\repository\org\scala-lang\modules\scala-java8-compat_2.13\1.0.2\scala-java8-compat_2.13-1.0.2.jar;C:\Users\DELL\.m2\repository\org\scala-lang\scala-reflect\2.13.10\scala-reflect-2.13.10.jar;C:\Users\DELL\.m2\repository\com\typesafe\scala-logging\scala-logging_2.13\3.9.4\scala-logging_2.13-3.9.4.jar;C:\Users\DELL\.m2\repository\io\dropwizard\metrics\metrics-core\4.2.19\metrics-core-4.2.19.jar;C:\Users\DELL\.m2\repository\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;C:\Users\DELL\.m2\repository\org\apache\kafka\kafka_2.13\3.4.1\kafka_2.13-3.4.1-test.jar;C:\Users\DELL\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\DELL\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\DELL\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\DELL\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\DELL\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.3\junit-platform-launcher-1.9.3.jar;C:\Users\DELL\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.1.2\spring-boot-starter-web-3.1.2.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.1.2\spring-boot-starter-json-3.1.2.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.2\jackson-datatype-jsr310-2.15.2.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.2\jackson-module-parameter-names-2.15.2.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.1.2\spring-boot-starter-tomcat-3.1.2.jar;C:\Users\DELL\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.11\tomcat-embed-core-10.1.11.jar;C:\Users\DELL\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.11\tomcat-embed-el-10.1.11.jar;C:\Users\DELL\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.11\tomcat-embed-websocket-10.1.11.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-web\6.0.11\spring-web-6.0.11.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-webmvc\6.0.11\spring-webmvc-6.0.11.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\DELL\AppData\Local\Temp\surefire9311654761026467259\surefirebooter-20230730004658918_3.jar C:\Users\DELL\AppData\Local\Temp\surefire9311654761026467259 2023-07-30T00-46-58_618-jvmRun1 surefire-20230730004658918_1tmp surefire_0-20230730004658918_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\Bhupesh ( Don&apos;t Delete)\Kafka\kafka\target\test-classes;E:\Bhupesh ( Don&apos;t Delete)\Kafka\kafka\target\classes;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter\3.1.2\spring-boot-starter-3.1.2.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot\3.1.2\spring-boot-3.1.2.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.1.2\spring-boot-autoconfigure-3.1.2.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.1.2\spring-boot-starter-logging-3.1.2.jar;C:\Users\DELL\.m2\repository\ch\qos\logback\logback-classic\1.4.8\logback-classic-1.4.8.jar;C:\Users\DELL\.m2\repository\ch\qos\logback\logback-core\1.4.8\logback-core-1.4.8.jar;C:\Users\DELL\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.20.0\log4j-to-slf4j-2.20.0.jar;C:\Users\DELL\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\DELL\.m2\repository\org\slf4j\jul-to-slf4j\2.0.7\jul-to-slf4j-2.0.7.jar;C:\Users\DELL\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-core\6.0.11\spring-core-6.0.11.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-jcl\6.0.11\spring-jcl-6.0.11.jar;C:\Users\DELL\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar;C:\Users\DELL\.m2\repository\org\springframework\kafka\spring-kafka\3.0.9\spring-kafka-3.0.9.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-context\6.0.11\spring-context-6.0.11.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-aop\6.0.11\spring-aop-6.0.11.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-beans\6.0.11\spring-beans-6.0.11.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-expression\6.0.11\spring-expression-6.0.11.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-messaging\6.0.11\spring-messaging-6.0.11.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-tx\6.0.11\spring-tx-6.0.11.jar;C:\Users\DELL\.m2\repository\org\springframework\retry\spring-retry\2.0.2\spring-retry-2.0.2.jar;C:\Users\DELL\.m2\repository\org\apache\kafka\kafka-clients\3.4.1\kafka-clients-3.4.1.jar;C:\Users\DELL\.m2\repository\com\github\luben\zstd-jni\1.5.2-1\zstd-jni-1.5.2-1.jar;C:\Users\DELL\.m2\repository\org\lz4\lz4-java\1.8.0\lz4-java-1.8.0.jar;C:\Users\DELL\.m2\repository\org\xerial\snappy\snappy-java\1.1.8.4\snappy-java-1.1.8.4.jar;C:\Users\DELL\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\DELL\.m2\repository\io\micrometer\micrometer-observation\1.11.2\micrometer-observation-1.11.2.jar;C:\Users\DELL\.m2\repository\io\micrometer\micrometer-commons\1.11.2\micrometer-commons-1.11.2.jar;C:\Users\DELL\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\DELL\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.1.2\spring-boot-starter-test-3.1.2.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-test\3.1.2\spring-boot-test-3.1.2.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.1.2\spring-boot-test-autoconfigure-3.1.2.jar;C:\Users\DELL\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\DELL\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\DELL\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.2\jakarta.activation-api-2.1.2.jar;C:\Users\DELL\.m2\repository\net\minidev\json-smart\2.4.11\json-smart-2.4.11.jar;C:\Users\DELL\.m2\repository\net\minidev\accessors-smart\2.4.11\accessors-smart-2.4.11.jar;C:\Users\DELL\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\DELL\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\DELL\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\DELL\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\DELL\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\DELL\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\DELL\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\DELL\.m2\repository\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;C:\Users\DELL\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.5\byte-buddy-agent-1.14.5.jar;C:\Users\DELL\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\DELL\.m2\repository\org\mockito\mockito-junit-jupiter\5.3.1\mockito-junit-jupiter-5.3.1.jar;C:\Users\DELL\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\DELL\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-test\6.0.11\spring-test-6.0.11.jar;C:\Users\DELL\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\DELL\.m2\repository\org\springframework\kafka\spring-kafka-test\3.0.9\spring-kafka-test-3.0.9.jar;C:\Users\DELL\.m2\repository\org\apache\zookeeper\zookeeper\3.6.3\zookeeper-3.6.3.jar;C:\Users\DELL\.m2\repository\org\apache\zookeeper\zookeeper-jute\3.6.3\zookeeper-jute-3.6.3.jar;C:\Users\DELL\.m2\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;C:\Users\DELL\.m2\repository\io\netty\netty-handler\4.1.94.Final\netty-handler-4.1.94.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-common\4.1.94.Final\netty-common-4.1.94.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-resolver\4.1.94.Final\netty-resolver-4.1.94.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-buffer\4.1.94.Final\netty-buffer-4.1.94.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport\4.1.94.Final\netty-transport-4.1.94.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.94.Final\netty-transport-native-unix-common-4.1.94.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-codec\4.1.94.Final\netty-codec-4.1.94.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-epoll\4.1.94.Final\netty-transport-native-epoll-4.1.94.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.94.Final\netty-transport-classes-epoll-4.1.94.Final.jar;C:\Users\DELL\.m2\repository\org\apache\kafka\kafka-clients\3.4.1\kafka-clients-3.4.1-test.jar;C:\Users\DELL\.m2\repository\org\apache\kafka\kafka-metadata\3.4.1\kafka-metadata-3.4.1.jar;C:\Users\DELL\.m2\repository\org\apache\kafka\kafka-server-common\3.4.1\kafka-server-common-3.4.1.jar;C:\Users\DELL\.m2\repository\org\apache\kafka\kafka-raft\3.4.1\kafka-raft-3.4.1.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.2\jackson-datatype-jdk8-2.15.2.jar;C:\Users\DELL\.m2\repository\com\yammer\metrics\metrics-core\2.2.0\metrics-core-2.2.0.jar;C:\Users\DELL\.m2\repository\org\apache\kafka\kafka-streams-test-utils\3.4.1\kafka-streams-test-utils-3.4.1.jar;C:\Users\DELL\.m2\repository\org\apache\kafka\kafka-streams\3.4.1\kafka-streams-3.4.1.jar;C:\Users\DELL\.m2\repository\org\rocksdb\rocksdbjni\7.1.2\rocksdbjni-7.1.2.jar;C:\Users\DELL\.m2\repository\org\apache\kafka\kafka_2.13\3.4.1\kafka_2.13-3.4.1.jar;C:\Users\DELL\.m2\repository\org\scala-lang\scala-library\2.13.10\scala-library-2.13.10.jar;C:\Users\DELL\.m2\repository\org\apache\kafka\kafka-group-coordinator\3.4.1\kafka-group-coordinator-3.4.1.jar;C:\Users\DELL\.m2\repository\org\apache\kafka\kafka-storage\3.4.1\kafka-storage-3.4.1.jar;C:\Users\DELL\.m2\repository\org\apache\kafka\kafka-storage-api\3.4.1\kafka-storage-api-3.4.1.jar;C:\Users\DELL\.m2\repository\net\sourceforge\argparse4j\argparse4j\0.7.0\argparse4j-0.7.0.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\module\jackson-module-scala_2.13\2.15.2\jackson-module-scala_2.13-2.15.2.jar;C:\Users\DELL\.m2\repository\com\thoughtworks\paranamer\paranamer\2.8\paranamer-2.8.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-csv\2.15.2\jackson-dataformat-csv-2.15.2.jar;C:\Users\DELL\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\DELL\.m2\repository\org\bitbucket\b_c\jose4j\0.9.3\jose4j-0.9.3.jar;C:\Users\DELL\.m2\repository\org\scala-lang\modules\scala-collection-compat_2.13\2.10.0\scala-collection-compat_2.13-2.10.0.jar;C:\Users\DELL\.m2\repository\org\scala-lang\modules\scala-java8-compat_2.13\1.0.2\scala-java8-compat_2.13-1.0.2.jar;C:\Users\DELL\.m2\repository\org\scala-lang\scala-reflect\2.13.10\scala-reflect-2.13.10.jar;C:\Users\DELL\.m2\repository\com\typesafe\scala-logging\scala-logging_2.13\3.9.4\scala-logging_2.13-3.9.4.jar;C:\Users\DELL\.m2\repository\io\dropwizard\metrics\metrics-core\4.2.19\metrics-core-4.2.19.jar;C:\Users\DELL\.m2\repository\commons-cli\commons-cli\1.4\commons-cli-1.4.jar;C:\Users\DELL\.m2\repository\org\apache\kafka\kafka_2.13\3.4.1\kafka_2.13-3.4.1-test.jar;C:\Users\DELL\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\DELL\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\DELL\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\DELL\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\DELL\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.3\junit-platform-launcher-1.9.3.jar;C:\Users\DELL\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.1.2\spring-boot-starter-web-3.1.2.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.1.2\spring-boot-starter-json-3.1.2.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.2\jackson-datatype-jsr310-2.15.2.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.2\jackson-module-parameter-names-2.15.2.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.1.2\spring-boot-starter-tomcat-3.1.2.jar;C:\Users\DELL\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.11\tomcat-embed-core-10.1.11.jar;C:\Users\DELL\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.11\tomcat-embed-el-10.1.11.jar;C:\Users\DELL\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.11\tomcat-embed-websocket-10.1.11.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-web\6.0.11\spring-web-6.0.11.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-webmvc\6.0.11\spring-webmvc-6.0.11.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\DELL"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\Bhupesh ( Don&apos;t Delete)\Kafka\kafka"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="FILE_LOG_CHARSET" value="windows-1252"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="surefire.real.class.path" value="C:\Users\DELL\AppData\Local\Temp\surefire9311654761026467259\surefirebooter-20230730004658918_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
+    <property name="user.name" value="DELL"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\DELL\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\DELL\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="user.dir" value="E:\Bhupesh ( Don&apos;t Delete)\Kafka\kafka"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PID" value="14500"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="CONSOLE_LOG_CHARSET" value="windows-1252"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\DELL\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\dotnet\;C:\Program Files\Graphviz\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\apache-maven-3.9.3\bin;E:\Bhupesh ( Don&apos;t Delete)\Kafka\kafka;C:\Users\DELL\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\DELL\AppData\Local\Programs\Python\Python310\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Local\GitHubDesktop\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.1\bin;;C:\Users\DELL\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\bin;;C:\Users\DELL\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin;;C:\Program Files\Graphviz\bin;C:\Program Files\Java\jdk-17\bin;D:\kafka;C:\Program Files\apache-maven-3.9.3\bin;E:\Bhupesh ( Don&apos;t Delete)\Kafka\kafka;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.7+8-LTS-224"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="contextLoads" classname="com.spring.kafka.KafkaApplicationTests" time="2.083">
+    <system-out><![CDATA[00:47:00.703 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.spring.kafka.KafkaApplicationTests]: KafkaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:47:01.016 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.spring.kafka.KafkaApplication for test class com.spring.kafka.KafkaApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.2)
+
+2023-07-30T00:47:02.256-04:00  INFO 14500 --- [           main] com.spring.kafka.KafkaApplicationTests   : Starting KafkaApplicationTests using Java 17.0.7 with PID 14500 (started by DELL in E:\Bhupesh ( Don't Delete)\Kafka\kafka)
+2023-07-30T00:47:02.262-04:00  INFO 14500 --- [           main] com.spring.kafka.KafkaApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2023-07-30T00:47:05.627-04:00  INFO 14500 --- [           main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-group-id-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = group-id
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2023-07-30T00:47:06.092-04:00  INFO 14500 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.4.1
+2023-07-30T00:47:06.095-04:00  INFO 14500 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 8a516edc2755df89
+2023-07-30T00:47:06.095-04:00  INFO 14500 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1690692426090
+2023-07-30T00:47:06.100-04:00  INFO 14500 --- [           main] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-group-id-1, groupId=group-id] Subscribed to topic(s): mytopic
+2023-07-30T00:47:06.135-04:00  INFO 14500 --- [           main] com.spring.kafka.KafkaApplicationTests   : Started KafkaApplicationTests in 4.646 seconds (process running for 7.004)
+2023-07-30T00:47:06.829-04:00  INFO 14500 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group-id-1, groupId=group-id] Node -1 disconnected.
+2023-07-30T00:47:06.834-04:00  WARN 14500 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group-id-1, groupId=group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2023-07-30T00:47:06.834-04:00  WARN 14500 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group-id-1, groupId=group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2023-07-30T00:47:06.949-04:00  INFO 14500 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group-id-1, groupId=group-id] Node -1 disconnected.
+2023-07-30T00:47:06.949-04:00  WARN 14500 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group-id-1, groupId=group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2023-07-30T00:47:06.950-04:00  WARN 14500 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group-id-1, groupId=group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2023-07-30T00:47:07.069-04:00  INFO 14500 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group-id-1, groupId=group-id] Node -1 disconnected.
+2023-07-30T00:47:07.074-04:00  WARN 14500 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group-id-1, groupId=group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2023-07-30T00:47:07.074-04:00  WARN 14500 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group-id-1, groupId=group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2023-07-30T00:47:07.310-04:00  INFO 14500 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group-id-1, groupId=group-id] Node -1 disconnected.
+2023-07-30T00:47:07.310-04:00  WARN 14500 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group-id-1, groupId=group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2023-07-30T00:47:07.310-04:00  WARN 14500 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group-id-1, groupId=group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2023-07-30T00:47:07.742-04:00  INFO 14500 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group-id-1, groupId=group-id] Node -1 disconnected.
+2023-07-30T00:47:07.742-04:00  WARN 14500 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group-id-1, groupId=group-id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2023-07-30T00:47:07.743-04:00  WARN 14500 --- [ntainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group-id-1, groupId=group-id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+]]></system-out>
+  </testcase>
+</testsuite>

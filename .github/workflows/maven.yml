@@ -31,6 +31,10 @@ jobs:
       - name: Build with Maven
         run: mvn clean install
 
+      - name: Rename JAR
+        run: |
+          mv target/target/kafka-0.0.1-SNAPSHOT.jar.jar target/spring-boot-kafka-docker.jar
+
       - uses: mr-smithers-excellent/docker-build-push@v6
         name: Build & push Docker image
         with:
